@@ -1,0 +1,12 @@
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\bin\Debug\EX2.exe.config
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\bin\Debug\EX2.exe
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\bin\Debug\EX2.pdb
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.csprojAssemblyReference.cache
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.Form1.resources
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.Properties.Resources.resources
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.csproj.GenerateResource.cache
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.csproj.CoreCompileInputs.cache
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.exe
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.pdb
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\bin\Debug\HZH_Controls.dll
+D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\obj\Debug\EX2.csproj.CopyComplete
