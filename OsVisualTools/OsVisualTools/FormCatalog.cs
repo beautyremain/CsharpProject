@@ -85,8 +85,11 @@ namespace OsVisualTools
         private void ucBtnExt_PS_BtnClick(object sender, EventArgs e)
         {
             ProcessorScheduling.ProcessorMainForm processorMainForm = new ProcessorScheduling.ProcessorMainForm();
-            processorMainForm.ShowDialog();
+            processorMainForm.backToCata += new ProcessorScheduling.ProcessorMainForm.getBack(this.Show);
+            processorMainForm.Show();
+            this.Hide();
         }
+
 
         private void ucBtnExt_BA_BtnClick(object sender, EventArgs e)
         {
@@ -107,7 +110,9 @@ namespace OsVisualTools
         private void ucBtnExt_DM_BtnClick(object sender, EventArgs e)
         {
             EX2.Form1 form = new EX2.Form1();
-            form.ShowDialog();
+            form.backToCata += new EX2.Form1.getBack(this.Hide);
+            form.Show();
+            this.Hide();
         }
 
         private void ucNavigationMenu_ClickItemed(object sender, EventArgs e)

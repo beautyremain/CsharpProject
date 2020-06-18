@@ -14,7 +14,8 @@ namespace ProcessorScheduling
 
     public partial class ProcessorMainForm : Form
     {
-        
+        public delegate void getBack();
+        public event getBack backToCata;//用于返回选择界面
 
         public List<Process> InitialList = new List<Process>();
         int count = 0;
@@ -94,7 +95,7 @@ namespace ProcessorScheduling
 
         private void ProcessorMainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            //mw.Show();
+            backToCata();
         }
     }
 }

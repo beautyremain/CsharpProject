@@ -50,7 +50,7 @@
             this.Request_panel.Controls.Add(this.Unit_label);
             this.Request_panel.Controls.Add(this.Request_textBox);
             this.Request_panel.Location = new System.Drawing.Point(24, 28);
-            this.Request_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Request_panel.Margin = new System.Windows.Forms.Padding(2);
             this.Request_panel.Name = "Request_panel";
             this.Request_panel.Size = new System.Drawing.Size(610, 51);
             this.Request_panel.TabIndex = 0;
@@ -84,6 +84,7 @@
             this.ucCombox1.IsShowRect = true;
             this.ucCombox1.ItemWidth = 70;
             this.ucCombox1.Location = new System.Drawing.Point(49, 23);
+            this.ucCombox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ucCombox1.Name = "ucCombox1";
             this.ucCombox1.RectColor = System.Drawing.Color.Silver;
             this.ucCombox1.RectWidth = 1;
@@ -106,7 +107,7 @@
             this.RequestConfirm_ucBtnExt.ConerRadius = 5;
             this.RequestConfirm_ucBtnExt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RequestConfirm_ucBtnExt.EnabledMouseEffect = false;
-            this.RequestConfirm_ucBtnExt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.RequestConfirm_ucBtnExt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.RequestConfirm_ucBtnExt.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.RequestConfirm_ucBtnExt.IsRadius = true;
             this.RequestConfirm_ucBtnExt.IsShowRect = true;
@@ -137,7 +138,7 @@
             // 
             this.Request_textBox.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Request_textBox.Location = new System.Drawing.Point(258, 25);
-            this.Request_textBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Request_textBox.Margin = new System.Windows.Forms.Padding(2);
             this.Request_textBox.Name = "Request_textBox";
             this.Request_textBox.Size = new System.Drawing.Size(33, 26);
             this.Request_textBox.TabIndex = 1;
@@ -145,7 +146,7 @@
             // DrawMem_panel
             // 
             this.DrawMem_panel.Location = new System.Drawing.Point(484, 117);
-            this.DrawMem_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DrawMem_panel.Margin = new System.Windows.Forms.Padding(2);
             this.DrawMem_panel.Name = "DrawMem_panel";
             this.DrawMem_panel.Size = new System.Drawing.Size(150, 281);
             this.DrawMem_panel.TabIndex = 2;
@@ -175,7 +176,7 @@
             this.ucDataGridView1.IsShowCheckBox = false;
             this.ucDataGridView1.IsShowHead = true;
             this.ucDataGridView1.Location = new System.Drawing.Point(24, 117);
-            this.ucDataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ucDataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.ucDataGridView1.Name = "ucDataGridView1";
             this.ucDataGridView1.RowHeight = 40;
             this.ucDataGridView1.RowType = typeof(HZH_Controls.Controls.UCDataGridViewRow);
@@ -207,7 +208,7 @@
             this.Edit_ucBtnExt.ConerRadius = 5;
             this.Edit_ucBtnExt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Edit_ucBtnExt.EnabledMouseEffect = false;
-            this.Edit_ucBtnExt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Edit_ucBtnExt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.Edit_ucBtnExt.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Edit_ucBtnExt.IsRadius = true;
             this.Edit_ucBtnExt.IsShowRect = true;
@@ -235,7 +236,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DrawMem_panel);
             this.Controls.Add(this.Request_panel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormMain";
             this.Text = "FormMain";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);

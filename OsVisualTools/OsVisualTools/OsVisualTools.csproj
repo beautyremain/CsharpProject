@@ -55,7 +55,6 @@
     <Compile Include="FormCatalog.Designer.cs">
       <DependentUpon>FormCatalog.cs</DependentUpon>
     </Compile>
-    <Compile Include="NavigationMenuItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCatalog.resx">
@@ -85,22 +84,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DiskSpaceManage\DiskSpaceManage.csproj">
+      <Project>{74664cc2-30a7-4233-a7fa-380148dff685}</Project>
+      <Name>DiskSpaceManage</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\MemoryAllocation\MemoryAllocation\MemoryAllocation.csproj">
       <Project>{ffe0065f-7aca-4e88-910f-30999f698bb1}</Project>
       <Name>MemoryAllocation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Backup\桌面\C#大作业\operating-system-visualization-tools\DiskSpaceManage\EX2\DiskSpaceManage.csproj">
-      <Project>{74664cc2-30a7-4233-a7fa-380148dff685}</Project>
-      <Name>DiskSpaceManage</Name>
+    <ProjectReference Include="..\..\ProcessorScheduling\ProcessorScheduling\ProcessorScheduling.csproj">
+      <Project>{410ba3ad-0a3d-45e8-9950-f1a938cd7aba}</Project>
+      <Name>ProcessorScheduling</Name>
     </ProjectReference>
     <ProjectReference Include="D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\BankersAlgorithm\BankersAlgorithm\BankersAlgorithm.csproj">
       <Project>{ce538938-0043-4bc4-a889-947ab76db471}</Project>
       <Name>BankersAlgorithm</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\ProcessorScheduling\ProcessorScheduling\ProcessorScheduling.csproj">
-      <Project>{410ba3ad-0a3d-45e8-9950-f1a938cd7aba}</Project>
-      <Name>ProcessorScheduling</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BankersAlgorithm\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -50,17 +50,19 @@
             // 
             this.lab_ready.AutoSize = true;
             this.lab_ready.Font = new System.Drawing.Font("华文中宋", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_ready.Location = new System.Drawing.Point(27, 40);
+            this.lab_ready.Location = new System.Drawing.Point(20, 32);
+            this.lab_ready.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_ready.Name = "lab_ready";
-            this.lab_ready.Size = new System.Drawing.Size(187, 27);
+            this.lab_ready.Size = new System.Drawing.Size(150, 21);
             this.lab_ready.TabIndex = 0;
             this.lab_ready.Text = "就绪队列排序：";
             // 
             // pnl_ready
             // 
-            this.pnl_ready.Location = new System.Drawing.Point(32, 69);
+            this.pnl_ready.Location = new System.Drawing.Point(24, 55);
+            this.pnl_ready.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnl_ready.Name = "pnl_ready";
-            this.pnl_ready.Size = new System.Drawing.Size(394, 170);
+            this.pnl_ready.Size = new System.Drawing.Size(296, 136);
             this.pnl_ready.TabIndex = 1;
             this.pnl_ready.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_ready_Paint);
             // 
@@ -68,26 +70,29 @@
             // 
             this.lab_info.AutoSize = true;
             this.lab_info.Font = new System.Drawing.Font("华文中宋", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_info.Location = new System.Drawing.Point(29, 437);
+            this.lab_info.Location = new System.Drawing.Point(22, 350);
+            this.lab_info.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_info.Name = "lab_info";
-            this.lab_info.Size = new System.Drawing.Size(137, 27);
+            this.lab_info.Size = new System.Drawing.Size(110, 21);
             this.lab_info.TabIndex = 2;
             this.lab_info.Text = "提示信息：";
             // 
             // pnl_finished
             // 
-            this.pnl_finished.Location = new System.Drawing.Point(32, 265);
+            this.pnl_finished.Location = new System.Drawing.Point(24, 212);
+            this.pnl_finished.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnl_finished.Name = "pnl_finished";
-            this.pnl_finished.Size = new System.Drawing.Size(394, 168);
+            this.pnl_finished.Size = new System.Drawing.Size(296, 134);
             this.pnl_finished.TabIndex = 3;
             // 
             // lab_finish
             // 
             this.lab_finish.AutoSize = true;
             this.lab_finish.Font = new System.Drawing.Font("华文中宋", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_finish.Location = new System.Drawing.Point(29, 242);
+            this.lab_finish.Location = new System.Drawing.Point(22, 194);
+            this.lab_finish.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_finish.Name = "lab_finish";
-            this.lab_finish.Size = new System.Drawing.Size(187, 27);
+            this.lab_finish.Size = new System.Drawing.Size(150, 21);
             this.lab_finish.TabIndex = 4;
             this.lab_finish.Text = "已完成的进程：";
             // 
@@ -96,17 +101,19 @@
             this.panel3.Controls.Add(this.lab_request);
             this.panel3.Controls.Add(this.rtx_prompt);
             this.panel3.Controls.Add(this.lab_pro);
-            this.panel3.Location = new System.Drawing.Point(32, 466);
+            this.panel3.Location = new System.Drawing.Point(24, 373);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(394, 100);
+            this.panel3.Size = new System.Drawing.Size(296, 80);
             this.panel3.TabIndex = 0;
             // 
             // lab_request
             // 
             this.lab_request.AutoSize = true;
-            this.lab_request.Location = new System.Drawing.Point(640, 31);
+            this.lab_request.Location = new System.Drawing.Point(480, 25);
+            this.lab_request.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_request.Name = "lab_request";
-            this.lab_request.Size = new System.Drawing.Size(67, 15);
+            this.lab_request.Size = new System.Drawing.Size(53, 12);
             this.lab_request.TabIndex = 19;
             this.lab_request.Text = "运行时间";
             // 
@@ -114,36 +121,40 @@
             // 
             this.rtx_prompt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtx_prompt.Location = new System.Drawing.Point(0, 0);
+            this.rtx_prompt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtx_prompt.Name = "rtx_prompt";
             this.rtx_prompt.ReadOnly = true;
             this.rtx_prompt.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtx_prompt.Size = new System.Drawing.Size(394, 100);
+            this.rtx_prompt.Size = new System.Drawing.Size(296, 80);
             this.rtx_prompt.TabIndex = 9;
             this.rtx_prompt.Text = "";
             // 
             // lab_pro
             // 
             this.lab_pro.AutoSize = true;
-            this.lab_pro.Location = new System.Drawing.Point(451, 31);
+            this.lab_pro.Location = new System.Drawing.Point(338, 25);
+            this.lab_pro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_pro.Name = "lab_pro";
-            this.lab_pro.Size = new System.Drawing.Size(52, 15);
+            this.lab_pro.Size = new System.Drawing.Size(41, 12);
             this.lab_pro.TabIndex = 18;
             this.lab_pro.Text = "优先数";
             // 
             // pnl_running
             // 
-            this.pnl_running.Location = new System.Drawing.Point(485, 80);
+            this.pnl_running.Location = new System.Drawing.Point(364, 64);
+            this.pnl_running.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnl_running.Name = "pnl_running";
-            this.pnl_running.Size = new System.Drawing.Size(287, 299);
+            this.pnl_running.Size = new System.Drawing.Size(215, 239);
             this.pnl_running.TabIndex = 7;
             // 
             // lab_current
             // 
             this.lab_current.AutoSize = true;
             this.lab_current.Font = new System.Drawing.Font("华文中宋", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_current.Location = new System.Drawing.Point(482, 51);
+            this.lab_current.Location = new System.Drawing.Point(362, 41);
+            this.lab_current.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_current.Name = "lab_current";
-            this.lab_current.Size = new System.Drawing.Size(187, 27);
+            this.lab_current.Size = new System.Drawing.Size(150, 21);
             this.lab_current.TabIndex = 8;
             this.lab_current.Text = "当前运行进程：";
             // 
@@ -157,17 +168,17 @@
             this.ucBtn_start.ConerRadius = 5;
             this.ucBtn_start.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_start.EnabledMouseEffect = false;
-            this.ucBtn_start.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(59)))));
+            this.ucBtn_start.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_start.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_start.IsRadius = true;
             this.ucBtn_start.IsShowRect = true;
             this.ucBtn_start.IsShowTips = false;
-            this.ucBtn_start.Location = new System.Drawing.Point(32, 578);
+            this.ucBtn_start.Location = new System.Drawing.Point(24, 462);
             this.ucBtn_start.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtn_start.Name = "ucBtn_start";
             this.ucBtn_start.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(58)))));
             this.ucBtn_start.RectWidth = 1;
-            this.ucBtn_start.Size = new System.Drawing.Size(111, 60);
+            this.ucBtn_start.Size = new System.Drawing.Size(83, 48);
             this.ucBtn_start.TabIndex = 24;
             this.ucBtn_start.TabStop = false;
             this.ucBtn_start.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -184,17 +195,17 @@
             this.ucBtn_back.ConerRadius = 5;
             this.ucBtn_back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_back.EnabledMouseEffect = false;
-            this.ucBtn_back.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(59)))));
+            this.ucBtn_back.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_back.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_back.IsRadius = true;
             this.ucBtn_back.IsShowRect = true;
             this.ucBtn_back.IsShowTips = false;
-            this.ucBtn_back.Location = new System.Drawing.Point(336, 578);
+            this.ucBtn_back.Location = new System.Drawing.Point(252, 462);
             this.ucBtn_back.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtn_back.Name = "ucBtn_back";
             this.ucBtn_back.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(58)))));
             this.ucBtn_back.RectWidth = 1;
-            this.ucBtn_back.Size = new System.Drawing.Size(111, 60);
+            this.ucBtn_back.Size = new System.Drawing.Size(83, 48);
             this.ucBtn_back.TabIndex = 24;
             this.ucBtn_back.TabStop = false;
             this.ucBtn_back.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -211,17 +222,17 @@
             this.ucBtn_replay.ConerRadius = 5;
             this.ucBtn_replay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_replay.EnabledMouseEffect = false;
-            this.ucBtn_replay.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(59)))));
+            this.ucBtn_replay.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_replay.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_replay.IsRadius = true;
             this.ucBtn_replay.IsShowRect = true;
             this.ucBtn_replay.IsShowTips = false;
-            this.ucBtn_replay.Location = new System.Drawing.Point(175, 578);
+            this.ucBtn_replay.Location = new System.Drawing.Point(131, 462);
             this.ucBtn_replay.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtn_replay.Name = "ucBtn_replay";
             this.ucBtn_replay.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(58)))));
             this.ucBtn_replay.RectWidth = 1;
-            this.ucBtn_replay.Size = new System.Drawing.Size(111, 60);
+            this.ucBtn_replay.Size = new System.Drawing.Size(83, 48);
             this.ucBtn_replay.TabIndex = 24;
             this.ucBtn_replay.TabStop = false;
             this.ucBtn_replay.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -238,17 +249,17 @@
             this.ucBtn_add.ConerRadius = 5;
             this.ucBtn_add.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_add.EnabledMouseEffect = false;
-            this.ucBtn_add.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(59)))));
+            this.ucBtn_add.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_add.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_add.IsRadius = true;
             this.ucBtn_add.IsShowRect = true;
             this.ucBtn_add.IsShowTips = false;
-            this.ucBtn_add.Location = new System.Drawing.Point(583, 578);
+            this.ucBtn_add.Location = new System.Drawing.Point(437, 462);
             this.ucBtn_add.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtn_add.Name = "ucBtn_add";
             this.ucBtn_add.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(58)))));
             this.ucBtn_add.RectWidth = 1;
-            this.ucBtn_add.Size = new System.Drawing.Size(111, 60);
+            this.ucBtn_add.Size = new System.Drawing.Size(83, 48);
             this.ucBtn_add.TabIndex = 25;
             this.ucBtn_add.TabStop = false;
             this.ucBtn_add.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -257,9 +268,9 @@
             // 
             // ProcessorWorkForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 652);
+            this.ClientSize = new System.Drawing.Size(588, 522);
             this.Controls.Add(this.ucBtn_add);
             this.Controls.Add(this.ucBtn_start);
             this.Controls.Add(this.ucBtn_replay);
@@ -273,6 +284,7 @@
             this.Controls.Add(this.pnl_ready);
             this.Controls.Add(this.lab_ready);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProcessorWorkForm";
             this.Text = "Form2";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);

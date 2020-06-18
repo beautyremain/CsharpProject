@@ -343,7 +343,7 @@
             this.ucBtn_useDefault.ConerRadius = 5;
             this.ucBtn_useDefault.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_useDefault.EnabledMouseEffect = false;
-            this.ucBtn_useDefault.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_useDefault.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_useDefault.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_useDefault.IsRadius = true;
             this.ucBtn_useDefault.IsShowRect = true;
@@ -370,7 +370,7 @@
             this.ucBtn_export.ConerRadius = 5;
             this.ucBtn_export.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_export.EnabledMouseEffect = false;
-            this.ucBtn_export.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_export.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_export.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_export.IsRadius = true;
             this.ucBtn_export.IsShowRect = true;

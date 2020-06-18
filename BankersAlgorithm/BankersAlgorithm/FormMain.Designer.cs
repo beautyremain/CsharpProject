@@ -308,7 +308,7 @@
             this.ucBtn_tempRun.ConerRadius = 5;
             this.ucBtn_tempRun.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_tempRun.EnabledMouseEffect = false;
-            this.ucBtn_tempRun.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_tempRun.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             resources.ApplyResources(this.ucBtn_tempRun, "ucBtn_tempRun");
             this.ucBtn_tempRun.IsRadius = true;
             this.ucBtn_tempRun.IsShowRect = true;
@@ -331,7 +331,7 @@
             this.ucBtn_run.ConerRadius = 5;
             this.ucBtn_run.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_run.EnabledMouseEffect = false;
-            this.ucBtn_run.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_run.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             resources.ApplyResources(this.ucBtn_run, "ucBtn_run");
             this.ucBtn_run.IsRadius = true;
             this.ucBtn_run.IsShowRect = true;
@@ -359,7 +359,7 @@
             this.ucBtnExt_refresh.ConerRadius = 5;
             this.ucBtnExt_refresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtnExt_refresh.EnabledMouseEffect = false;
-            this.ucBtnExt_refresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtnExt_refresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             resources.ApplyResources(this.ucBtnExt_refresh, "ucBtnExt_refresh");
             this.ucBtnExt_refresh.IsRadius = true;
             this.ucBtnExt_refresh.IsShowRect = true;

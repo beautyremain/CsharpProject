@@ -67,7 +67,7 @@
             this.ucBtn_confirm.ConerRadius = 5;
             this.ucBtn_confirm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtn_confirm.EnabledMouseEffect = false;
-            this.ucBtn_confirm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_confirm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_confirm.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ucBtn_confirm.IsRadius = true;
             this.ucBtn_confirm.IsShowRect = true;

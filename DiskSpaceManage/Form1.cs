@@ -12,6 +12,8 @@ namespace EX2
 {
     public partial class Form1 : Form
     {
+        public delegate void getBack();
+        public event getBack backToCata;//用于返回选择界面
         public Form1()
         {
             InitializeComponent();
@@ -254,6 +256,11 @@ namespace EX2
         private void Button2_Click(object sender, EventArgs e)
         {
             blockOut();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            backToCata();
         }
     }
 }

@@ -11,3 +11,16 @@ D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizatio
 D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.exe
 D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.pdb
 D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.csprojAssemblyReference.cache
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\bin\Debug\ProcessorScheduling.exe.config
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\bin\Debug\ProcessorScheduling.exe
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\bin\Debug\ProcessorScheduling.pdb
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\bin\Debug\HZH_Controls.dll
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.csprojAssemblyReference.cache
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.ProcessorMainForm.resources
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.ProcessorWorkForm.resources
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.Properties.Resources.resources
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.csproj.GenerateResource.cache
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.csproj.CoreCompileInputs.cache
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.csproj.CopyComplete
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.exe
+F:\CsharpProject\ProcessorScheduling\ProcessorScheduling\obj\Debug\ProcessorScheduling.pdb
