@@ -39,3 +39,15 @@ F:\CsharpProject\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.cs
 F:\CsharpProject\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.csproj.CopyComplete
 F:\CsharpProject\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.exe
 F:\CsharpProject\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.pdb
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\bin\Debug\MemoryAllocation.exe.config
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\bin\Debug\MemoryAllocation.exe
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\bin\Debug\MemoryAllocation.pdb
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\bin\Debug\HZH_Controls.dll
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.FormEdit.resources
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.FormInit.resources
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.FormMain.resources
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.csproj.GenerateResource.cache
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.csproj.CopyComplete
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.exe
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.pdb
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\MemoryAllocation\MemoryAllocation\obj\Debug\MemoryAllocation.csprojAssemblyReference.cache

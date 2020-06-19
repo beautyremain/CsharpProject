@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HZH_Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HZH_Controls.1.0.12\lib\net40\HZH_Controls.dll</HintPath>
+      <HintPath>..\..\OsVisualTools\packages\HZH_Controls.1.0.13\lib\net40\HZH_Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />

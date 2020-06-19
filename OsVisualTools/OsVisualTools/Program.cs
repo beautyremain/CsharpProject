@@ -16,7 +16,7 @@ namespace OsVisualTools
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCatalog());
+            Application.Run(new MainForm());
         }
     }
 }

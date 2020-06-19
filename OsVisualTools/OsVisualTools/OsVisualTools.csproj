@@ -34,8 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HZH_Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HZH_Controls.1.0.12\lib\net40\HZH_Controls.dll</HintPath>
+      <HintPath>..\packages\HZH_Controls.1.0.13\lib\net40\HZH_Controls.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,16 +50,129 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCatalog.cs">
+    <Compile Include="Animation\GraphicsDraw.cs" />
+    <Compile Include="Animation\myAnimation.cs" />
+    <Compile Include="Animation\MyDrawParam.cs" />
+    <Compile Include="Base\Area.cs" />
+    <Compile Include="Base\DataBus.cs" />
+    <Compile Include="Base\DropItem.cs" />
+    <Compile Include="Base\DulAreaList.cs" />
+    <Compile Include="Base\MyDictionary.cs" />
+    <Compile Include="Base\OsManager.cs" />
+    <Compile Include="Base\Process.cs" />
+    <Compile Include="Base\RowModel.cs" />
+    <Compile Include="Forms\FormBegin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCatalog.Designer.cs">
-      <DependentUpon>FormCatalog.cs</DependentUpon>
+    <Compile Include="Forms\FormBegin.Designer.cs">
+      <DependentUpon>FormBegin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChoose.Designer.cs">
+      <DependentUpon>FormChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOperating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormOperating.Designer.cs">
+      <DependentUpon>FormOperating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DiskMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DiskMainForm.Designer.cs">
+      <DependentUpon>DiskMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MemoryEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MemoryEditForm.Designer.cs">
+      <DependentUpon>MemoryEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MemoryInitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MemoryInitForm.Designer.cs">
+      <DependentUpon>MemoryInitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MemoryMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MemoryMainForm.Designer.cs">
+      <DependentUpon>MemoryMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProcessorMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProcessorMainForm.Designer.cs">
+      <DependentUpon>ProcessorMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProcessorWorkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProcessorWorkForm.Designer.cs">
+      <DependentUpon>ProcessorWorkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Algorithm.cs" />
+    <Compile Include="Logic\AlgorithmOperator.cs" />
+    <Compile Include="NavigationMenuItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCatalog.resx">
-      <DependentUpon>FormCatalog.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormBegin.resx">
+      <DependentUpon>FormBegin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChoose.resx">
+      <DependentUpon>FormChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOperating.resx">
+      <DependentUpon>FormOperating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DiskMainForm.resx">
+      <DependentUpon>DiskMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MemoryEditForm.resx">
+      <DependentUpon>MemoryEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MemoryInitForm.resx">
+      <DependentUpon>MemoryInitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MemoryMainForm.resx">
+      <DependentUpon>MemoryMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProcessorMainForm.resx">
+      <DependentUpon>ProcessorMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProcessorWorkForm.resx">
+      <DependentUpon>ProcessorWorkForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,6 +182,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -84,25 +199,24 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DiskSpaceManage\DiskSpaceManage.csproj">
-      <Project>{74664cc2-30a7-4233-a7fa-380148dff685}</Project>
-      <Name>DiskSpaceManage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MemoryAllocation\MemoryAllocation\MemoryAllocation.csproj">
-      <Project>{ffe0065f-7aca-4e88-910f-30999f698bb1}</Project>
-      <Name>MemoryAllocation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ProcessorScheduling\ProcessorScheduling\ProcessorScheduling.csproj">
-      <Project>{410ba3ad-0a3d-45e8-9950-f1a938cd7aba}</Project>
-      <Name>ProcessorScheduling</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\Backup\桌面\C#大作业\operating-system-visualization-tools\OSVisualizationTool\BankersAlgorithm\BankersAlgorithm\BankersAlgorithm.csproj">
-      <Project>{ce538938-0043-4bc4-a889-947ab76db471}</Project>
-      <Name>BankersAlgorithm</Name>
-    </ProjectReference>
+    <None Include="Resources\导出.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\switch-ON.png" />
+    <None Include="Resources\switch-OFF.png" />
+    <None Include="Resources\switch-OFF %281%29.png" />
+    <None Include="Resources\icon-test_1.png" />
+    <None Include="Resources\icon-test.png" />
+    <None Include="Resources\benefits.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\21.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\1 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BankersAlgorithm\" />
+    <None Include="Resources\箭头.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

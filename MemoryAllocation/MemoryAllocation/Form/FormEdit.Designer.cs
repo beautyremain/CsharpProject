@@ -38,8 +38,7 @@
             this.textBoxEx1.DecLength = 2;
             this.textBoxEx1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBoxEx1.InputType = HZH_Controls.TextInputType.NotControl;
-            this.textBoxEx1.Location = new System.Drawing.Point(44, 39);
-            this.textBoxEx1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxEx1.Location = new System.Drawing.Point(66, 59);
             this.textBoxEx1.MaxValue = new decimal(new int[] {
             1000000,
             0,
@@ -57,31 +56,29 @@
             this.textBoxEx1.PromptFont = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.textBoxEx1.PromptText = "";
             this.textBoxEx1.RegexPattern = "";
-            this.textBoxEx1.Size = new System.Drawing.Size(38, 26);
+            this.textBoxEx1.Size = new System.Drawing.Size(55, 35);
             this.textBoxEx1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(93, 41);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(139, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 20);
+            this.label1.Size = new System.Drawing.Size(38, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "KB";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(133, 36);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(199, 54);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(53, 27);
+            this.button1.Size = new System.Drawing.Size(79, 40);
             this.button1.TabIndex = 3;
             this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = false;
@@ -89,15 +86,15 @@
             // 
             // FormEdit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(219, 85);
+            this.ClientSize = new System.Drawing.Size(328, 128);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxEx1);
             this.Location = new System.Drawing.Point(40, 40);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.MaximumSize = new System.Drawing.Size(255, 148);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(374, 203);
             this.Name = "FormEdit";
             this.Text = "FormEdit";
             this.ResumeLayout(false);

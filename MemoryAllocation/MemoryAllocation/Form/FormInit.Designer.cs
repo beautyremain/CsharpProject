@@ -38,7 +38,7 @@
             // 
             this.Data_textBox.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Data_textBox.Location = new System.Drawing.Point(123, 28);
-            this.Data_textBox.Margin = new System.Windows.Forms.Padding(2);
+            this.Data_textBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Data_textBox.Name = "Data_textBox";
             this.Data_textBox.Size = new System.Drawing.Size(31, 26);
             this.Data_textBox.TabIndex = 0;
@@ -75,7 +75,7 @@
             this.ucBtnExt1.ConerRadius = 5;
             this.ucBtnExt1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucBtnExt1.EnabledMouseEffect = false;
-            this.ucBtnExt1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
+            this.ucBtnExt1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ucBtnExt1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ucBtnExt1.IsRadius = true;
             this.ucBtnExt1.IsShowRect = true;
@@ -101,7 +101,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Data_textBox);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormInit";
             this.Text = "FormInit";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormInit_FormClosing);

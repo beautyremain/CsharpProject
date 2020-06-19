@@ -314,7 +314,7 @@
             this.ucBtn_tempRun.IsShowRect = true;
             this.ucBtn_tempRun.IsShowTips = false;
             this.ucBtn_tempRun.Name = "ucBtn_tempRun";
-            this.ucBtn_tempRun.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_tempRun.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_tempRun.RectWidth = 1;
             this.ucBtn_tempRun.TabStop = false;
             this.ucBtn_tempRun.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -337,7 +337,7 @@
             this.ucBtn_run.IsShowRect = true;
             this.ucBtn_run.IsShowTips = false;
             this.ucBtn_run.Name = "ucBtn_run";
-            this.ucBtn_run.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtn_run.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtn_run.RectWidth = 1;
             this.ucBtn_run.TabStop = false;
             this.ucBtn_run.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -365,7 +365,7 @@
             this.ucBtnExt_refresh.IsShowRect = true;
             this.ucBtnExt_refresh.IsShowTips = false;
             this.ucBtnExt_refresh.Name = "ucBtnExt_refresh";
-            this.ucBtnExt_refresh.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ucBtnExt_refresh.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(61)))), ((int)(((byte)(73)))));
             this.ucBtnExt_refresh.RectWidth = 1;
             this.ucBtnExt_refresh.TabStop = false;
             this.ucBtnExt_refresh.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));

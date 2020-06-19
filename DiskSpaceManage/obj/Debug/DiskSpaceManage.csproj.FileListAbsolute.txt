@@ -22,3 +22,12 @@ F:\CsharpProject\DiskSpaceManage\obj\Debug\DiskSpaceManage.csproj.CoreCompileInp
 F:\CsharpProject\DiskSpaceManage\obj\Debug\DiskSpaceManage.csproj.CopyComplete
 F:\CsharpProject\DiskSpaceManage\obj\Debug\EX2.exe
 F:\CsharpProject\DiskSpaceManage\obj\Debug\EX2.pdb
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\bin\Debug\EX2.exe.config
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\bin\Debug\EX2.exe
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\bin\Debug\EX2.pdb
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\EX2.Form1.resources
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\EX2.Properties.Resources.resources
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\DiskSpaceManage.csproj.GenerateResource.cache
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\DiskSpaceManage.csproj.CopyComplete
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\EX2.exe
+D:\我的学习\我的作业\软件构造基础\CsharpProject-master\CsharpProject-master\DiskSpaceManage\obj\Debug\EX2.pdb

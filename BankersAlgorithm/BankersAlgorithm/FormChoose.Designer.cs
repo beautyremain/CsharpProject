@@ -41,9 +41,10 @@
             this.comboBox_chooseTemp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_chooseTemp.Font = new System.Drawing.Font("微软雅黑", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_chooseTemp.FormattingEnabled = true;
-            this.comboBox_chooseTemp.Location = new System.Drawing.Point(69, 70);
+            this.comboBox_chooseTemp.Location = new System.Drawing.Point(92, 88);
+            this.comboBox_chooseTemp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_chooseTemp.Name = "comboBox_chooseTemp";
-            this.comboBox_chooseTemp.Size = new System.Drawing.Size(189, 28);
+            this.comboBox_chooseTemp.Size = new System.Drawing.Size(251, 33);
             this.comboBox_chooseTemp.TabIndex = 0;
             this.comboBox_chooseTemp.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -51,10 +52,11 @@
             // 
             this.listBox_showAllTemplate.Font = new System.Drawing.Font("微软雅黑", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox_showAllTemplate.FormattingEnabled = true;
-            this.listBox_showAllTemplate.ItemHeight = 20;
-            this.listBox_showAllTemplate.Location = new System.Drawing.Point(69, 104);
+            this.listBox_showAllTemplate.ItemHeight = 25;
+            this.listBox_showAllTemplate.Location = new System.Drawing.Point(92, 130);
+            this.listBox_showAllTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox_showAllTemplate.Name = "listBox_showAllTemplate";
-            this.listBox_showAllTemplate.Size = new System.Drawing.Size(189, 224);
+            this.listBox_showAllTemplate.Size = new System.Drawing.Size(251, 279);
             this.listBox_showAllTemplate.TabIndex = 1;
             // 
             // ucBtn_confirm
@@ -72,12 +74,12 @@
             this.ucBtn_confirm.IsRadius = true;
             this.ucBtn_confirm.IsShowRect = true;
             this.ucBtn_confirm.IsShowTips = false;
-            this.ucBtn_confirm.Location = new System.Drawing.Point(262, 352);
+            this.ucBtn_confirm.Location = new System.Drawing.Point(173, 425);
             this.ucBtn_confirm.Margin = new System.Windows.Forms.Padding(0);
             this.ucBtn_confirm.Name = "ucBtn_confirm";
             this.ucBtn_confirm.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ucBtn_confirm.RectWidth = 1;
-            this.ucBtn_confirm.Size = new System.Drawing.Size(60, 28);
+            this.ucBtn_confirm.Size = new System.Drawing.Size(104, 47);
             this.ucBtn_confirm.TabIndex = 57;
             this.ucBtn_confirm.TabStop = false;
             this.ucBtn_confirm.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -91,8 +93,9 @@
             this.panel2.Controls.Add(this.listBox_showAllTemplate);
             this.panel2.Controls.Add(this.comboBox_chooseTemp);
             this.panel2.Location = new System.Drawing.Point(-1, -1);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(336, 413);
+            this.panel2.Size = new System.Drawing.Size(448, 516);
             this.panel2.TabIndex = 3;
             // 
             // label3
@@ -100,20 +103,22 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(125, 31);
+            this.label3.Location = new System.Drawing.Point(167, 39);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 26);
+            this.label3.Size = new System.Drawing.Size(110, 31);
             this.label3.TabIndex = 58;
             this.label3.Text = "模板选择";
             // 
             // FormChoose
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 404);
+            this.ClientSize = new System.Drawing.Size(443, 505);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormChoose";
-            this.Text = "FormChoose";
+            this.Text = "银行家算法";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
